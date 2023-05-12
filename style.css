@@ -1,0 +1,58 @@
+/* LINK FROM GOGLEFONTS */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+/* MEANS EVERTHING HAS POROERTIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY HAS FLEX TO MAKES THE CARD IN THE CENTER */
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+.component {
+  width: 300px;
+  height: 100%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 16px 17px;
+  text-align: center;
+  border-radius: 19px;
+}
+
+.component .img-component img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.component .component_title {
+  padding: 8px 5px;
+
+}
+
+.component .component_title h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.component .component_title p {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
